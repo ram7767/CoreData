@@ -13,6 +13,11 @@
 		EBEBE8B72B3D529200AE0604 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBEBE8B52B3D529200AE0604 /* Main.storyboard */; };
 		EBEBE8B92B3D529400AE0604 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBEBE8B82B3D529400AE0604 /* Assets.xcassets */; };
 		EBEBE8BC2B3D529400AE0604 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBEBE8BA2B3D529400AE0604 /* LaunchScreen.storyboard */; };
+		EBEBE8C62B3D7BBC00AE0604 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEBE8C52B3D7BBC00AE0604 /* MainTableViewCell.swift */; };
+		EBEBE8C92B3D80E800AE0604 /* Person.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBEBE8C72B3D80E800AE0604 /* Person.xcdatamodeld */; };
+		EBEBE8CB2B3D891E00AE0604 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EBEBE8CA2B3D891E00AE0604 /* README.md */; };
+		EBEBE8CF2B3D988400AE0604 /* AddNewPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEBE8CE2B3D988400AE0604 /* AddNewPersonViewController.swift */; };
+		EBEBE8D12B3DAC4100AE0604 /* ImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEBE8D02B3DAC4100AE0604 /* ImagesCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		EBEBE8B82B3D529400AE0604 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBEBE8BB2B3D529400AE0604 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBEBE8BD2B3D529400AE0604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBEBE8C52B3D7BBC00AE0604 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		EBEBE8C82B3D80E800AE0604 /* Person.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Person.xcdatamodel; sourceTree = "<group>"; };
+		EBEBE8CA2B3D891E00AE0604 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EBEBE8CE2B3D988400AE0604 /* AddNewPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewPersonViewController.swift; sourceTree = "<group>"; };
+		EBEBE8D02B3DAC4100AE0604 /* ImagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +50,7 @@
 		EBEBE8A32B3D529200AE0604 = {
 			isa = PBXGroup;
 			children = (
+				EBEBE8CA2B3D891E00AE0604 /* README.md */,
 				EBEBE8AE2B3D529200AE0604 /* CoreDataAdvanceConcepts */,
 				EBEBE8AD2B3D529200AE0604 /* Products */,
 			);
@@ -58,11 +69,15 @@
 			children = (
 				EBEBE8AF2B3D529200AE0604 /* AppDelegate.swift */,
 				EBEBE8B12B3D529200AE0604 /* SceneDelegate.swift */,
+				EBEBE8C52B3D7BBC00AE0604 /* MainTableViewCell.swift */,
+				EBEBE8C72B3D80E800AE0604 /* Person.xcdatamodeld */,
 				EBEBE8B32B3D529200AE0604 /* ViewController.swift */,
+				EBEBE8CE2B3D988400AE0604 /* AddNewPersonViewController.swift */,
 				EBEBE8B52B3D529200AE0604 /* Main.storyboard */,
 				EBEBE8B82B3D529400AE0604 /* Assets.xcassets */,
 				EBEBE8BA2B3D529400AE0604 /* LaunchScreen.storyboard */,
 				EBEBE8BD2B3D529400AE0604 /* Info.plist */,
+				EBEBE8D02B3DAC4100AE0604 /* ImagesCollectionViewCell.swift */,
 			);
 			path = CoreDataAdvanceConcepts;
 			sourceTree = "<group>";
@@ -127,6 +142,7 @@
 			files = (
 				EBEBE8BC2B3D529400AE0604 /* LaunchScreen.storyboard in Resources */,
 				EBEBE8B92B3D529400AE0604 /* Assets.xcassets in Resources */,
+				EBEBE8CB2B3D891E00AE0604 /* README.md in Resources */,
 				EBEBE8B72B3D529200AE0604 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +156,11 @@
 			files = (
 				EBEBE8B42B3D529200AE0604 /* ViewController.swift in Sources */,
 				EBEBE8B02B3D529200AE0604 /* AppDelegate.swift in Sources */,
+				EBEBE8CF2B3D988400AE0604 /* AddNewPersonViewController.swift in Sources */,
+				EBEBE8C62B3D7BBC00AE0604 /* MainTableViewCell.swift in Sources */,
 				EBEBE8B22B3D529200AE0604 /* SceneDelegate.swift in Sources */,
+				EBEBE8D12B3DAC4100AE0604 /* ImagesCollectionViewCell.swift in Sources */,
+				EBEBE8C92B3D80E800AE0604 /* Person.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +383,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EBEBE8C72B3D80E800AE0604 /* Person.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EBEBE8C82B3D80E800AE0604 /* Person.xcdatamodel */,
+			);
+			currentVersion = EBEBE8C82B3D80E800AE0604 /* Person.xcdatamodel */;
+			path = Person.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EBEBE8A42B3D529200AE0604 /* Project object */;
 }
