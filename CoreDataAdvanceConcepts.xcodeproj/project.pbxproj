@@ -18,6 +18,7 @@
 		EBEBE8CB2B3D891E00AE0604 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EBEBE8CA2B3D891E00AE0604 /* README.md */; };
 		EBEBE8CF2B3D988400AE0604 /* AddNewPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEBE8CE2B3D988400AE0604 /* AddNewPersonViewController.swift */; };
 		EBEBE8D12B3DAC4100AE0604 /* ImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEBE8D02B3DAC4100AE0604 /* ImagesCollectionViewCell.swift */; };
+		EBEBE8D32B3DB9D200AE0604 /* SECURITY.md in Resources */ = {isa = PBXBuildFile; fileRef = EBEBE8D22B3DB9D200AE0604 /* SECURITY.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		EBEBE8CA2B3D891E00AE0604 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EBEBE8CE2B3D988400AE0604 /* AddNewPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewPersonViewController.swift; sourceTree = "<group>"; };
 		EBEBE8D02B3DAC4100AE0604 /* ImagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		EBEBE8D22B3DB9D200AE0604 /* SECURITY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SECURITY.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		EBEBE8A32B3D529200AE0604 = {
 			isa = PBXGroup;
 			children = (
+				EBEBE8D22B3DB9D200AE0604 /* SECURITY.md */,
 				EBEBE8CA2B3D891E00AE0604 /* README.md */,
 				EBEBE8AE2B3D529200AE0604 /* CoreDataAdvanceConcepts */,
 				EBEBE8AD2B3D529200AE0604 /* Products */,
@@ -142,6 +145,7 @@
 			files = (
 				EBEBE8BC2B3D529400AE0604 /* LaunchScreen.storyboard in Resources */,
 				EBEBE8B92B3D529400AE0604 /* Assets.xcassets in Resources */,
+				EBEBE8D32B3DB9D200AE0604 /* SECURITY.md in Resources */,
 				EBEBE8CB2B3D891E00AE0604 /* README.md in Resources */,
 				EBEBE8B72B3D529200AE0604 /* Main.storyboard in Resources */,
 			);
